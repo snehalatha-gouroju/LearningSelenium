@@ -14,7 +14,7 @@ import java.time.Duration;
 public class AlertPractice{
     public static void main(String[] args) throws InterruptedException{
         WebDriver driver=new ChromeDriver();
-
+            //inital commit completed
         //WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 
         //wait.until(ExpectedConditions.alertIsPresent());
