@@ -23,7 +23,7 @@ public class SwitchToUse {
         driver.findElement(By.xpath("//a[normalize-space()='OrangeHRM, Inc']")).click();
         Set<String> windowsIDs=driver.getWindowHandles();
         //System.out.println(windowsIDs);
-
+  
 
 
         //1.iterator():
