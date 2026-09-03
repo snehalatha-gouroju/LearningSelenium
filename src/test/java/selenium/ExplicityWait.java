@@ -22,6 +22,5 @@ public class ExplicityWait {
         clickable.click();
         //driver.findElement(By.xpath("//a[text()='Flipkart']")).click();
 
-
     }
 }
