@@ -14,27 +14,27 @@ import java.util.NoSuchElementException;
 public class FluentWait {
 
     public static void main(String[] args){
+        /*
         WebDriver driver=new ChromeDriver(); myWait=new FluentWait<WebDriver>(driver)
                 .withTimeout(Duration.ofSeconds(30))
                 .pollingEvery(Duration.ofSeconds(5))
                 .ignoring(NoSuchElementException.class);
 
 
+*/
 
+       // driver.get("https://www.youtube.com");
 
-        driver.get("https://www.youtube.com");
-
-        driver.findElement(By.xpath("//input[@name='search_query']")).sendKeys("selenium");
-
+        //driver.findElement(By.xpath("//input[@name='search_query']")).sendKeys("selenium");
+/*
         WebElement Element=myWait.until(new Function<WebDriver,WebElement>(){
             public WebElement apply(WebDriver driver){
-                return driver.findElement(
-                        driver.findElement(By.xpath("//span[text()=' tutorial for beginners']")).click();
+                return driver.findElement driver.findElement(By.xpath("//span[text()=' tutorial for beginners']"));
             }
         });
 
         Element.click();
-
+*/
 
 
 
