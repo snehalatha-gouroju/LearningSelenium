@@ -22,7 +22,17 @@ public class Web_Table {
         //Thread.sleep(3000);
         List<WebElement> rows=driver.findElements(By.xpath("//table[@id='myTable']/tbody/child::tr"));
 
-         System.out.println(rows.size());
+         System.out.println("no of rows are:" +rows.size());
+
+        List<WebElement> headings=driver.findElements(By.xpath("//table[@id='myTable']/thead/tr/child::th"));
+
+        System.out.println("no of colunms are:" +headings.size());
+
+
+        WebElement cell=driver.findElement(By.xpath("//table[@id='myTable']/tbody/child::tr[2]/td[2]"));
+
+        System.out.println("name of cell is:" +cell.getText());
+
 
     }
 }
