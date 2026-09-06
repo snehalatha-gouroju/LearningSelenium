@@ -29,9 +29,37 @@ public class Web_Table {
         System.out.println("no of colunms are:" +headings.size());
 
 
-        WebElement cell=driver.findElement(By.xpath("//table[@id='myTable']/tbody/child::tr[2]/td[2]"));
+        //get the table data based on row and column number
+        String cell=driver.findElement(By.xpath("//table[@id='myTable']/tbody/child::tr[2]/td[2]")).getText();
+         System.out.println(cell);
+        //System.out.println("name of cell is:" +cell.getText());
 
-        System.out.println("name of cell is:" +cell.getText());
+
+
+       //get the entire table data
+
+        //for row iteration
+
+        //for col iteration
+
+        for(int row=1;row<=rows.size();row++){
+
+            for(int col=1;col<=headings.size();col++)
+            {
+               String callDate=driver.findElement(By.xpath("//table[@id='myTable']/tbody/child::tr["+row+"]/td["+col+"]")).getText();
+                System.out.println(callDate);
+
+            }
+
+        }
+
+
+
+
+
+
+
+
 
 
     }
