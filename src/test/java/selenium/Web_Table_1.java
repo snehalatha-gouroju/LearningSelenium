@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 import java.util.List;
 
-public class Web_Table {
+public class Web_Table_1 {
 
 
     public static void main(String[] args) throws InterruptedException{
@@ -52,7 +52,7 @@ public class Web_Table {
             }
 
         }
-            
+
 
 
 
