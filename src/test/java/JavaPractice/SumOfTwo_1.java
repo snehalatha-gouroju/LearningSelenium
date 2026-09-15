@@ -3,7 +3,7 @@ package JavaPractice;
 
 import java.util.Scanner;
 
-public class SumOfTwo {
+public class SumOfTwo_1 {
 
     public static void main(String[] args){
         //int sum=0;
