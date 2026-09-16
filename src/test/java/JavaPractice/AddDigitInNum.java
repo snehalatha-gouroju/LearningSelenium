@@ -25,6 +25,9 @@ public class AddDigitInNum {
 
        System.out.println("th digits of sum is:" +sum);
 
+       System.out.println("End The Program");
+
+
 
 
 
