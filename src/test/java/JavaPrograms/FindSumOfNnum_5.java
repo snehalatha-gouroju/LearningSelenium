@@ -24,3 +24,6 @@ public class FindSumOfNnum_5 {
         System.out.println("the sum of n numbers :" +sum);
     }
 }
+
+
+
