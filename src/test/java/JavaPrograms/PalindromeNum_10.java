@@ -15,8 +15,8 @@ public class PalindromeNum_10 {
         number = sc.nextInt();
         int temp = number;
 
-        int reverseNum = 0;
-        while(number > 0)
+        int reverseNum =0;
+        while(temp > 0)
         {
             int remainder = temp % 10;
             reverseNum = reverseNum * 10 + remainder;
