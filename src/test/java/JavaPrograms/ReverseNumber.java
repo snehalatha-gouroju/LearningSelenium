@@ -5,25 +5,26 @@ import java.util.Scanner;
 public class ReverseNumber {
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         System.out.println("Enter any Number ?");
 
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        int number=sc.nextInt();
+        int number = sc.nextInt();
 
-        int res=0;
+        int res = 0;
 
-        while( number > 0) {
+        while (number > 0) {
 
             int LastDigit = number % 10;
 
 
-            res = res * 10 +  LastDigit;
+            res = res * 10 + LastDigit;
 
-            number = number / 10 ;
+            number = number / 10;
         }
 
-        System.out.println("The Reverse Number Is : " +res);
+        System.out.println("The Reverse Number Is : " + res);
+    }
 }
