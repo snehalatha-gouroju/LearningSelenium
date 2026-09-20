@@ -25,8 +25,5 @@ public class ReverseNumber {
             number = number / 10 ;
         }
 
-        System.out.println("The Reverse Number Is : " +number);
-
-    }
-
+        System.out.println("The Reverse Number Is : " +res);
 }
