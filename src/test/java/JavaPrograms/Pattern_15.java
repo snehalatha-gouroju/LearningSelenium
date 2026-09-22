@@ -2,7 +2,7 @@ package JavaPrograms;
 
 import java.util.Scanner;
 
-public class DuplicateCharString_14 {
+public class Pattern_15 {
 
     public static void main(String[] args) {
 
