@@ -12,9 +12,9 @@ public class Factorial_9 {
 
         int number =sc.nextInt();
 
-        int result = factorial(number);
+        int results = factorial(number);
 
-        System.out.println("factorial of "  +number +  "is " + result);
+        System.out.println("factorial of "  +number +  "is " + results);
 
 
 
