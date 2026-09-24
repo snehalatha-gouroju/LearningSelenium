@@ -7,7 +7,7 @@ public class AvgOfArray_4 {
 
     public static void main(String[] args){
 
-        int[] array = {2,3,4,5,6};
+        int[] array = {2,3,4,5,8,9};
 
         int length= array.length;
 
