@@ -114,7 +114,7 @@ public class VectorClass {
 
 
         System.out.println("size of the v4 is:"+v4.size());
-        System.out.println("capacity of the v4 is:"+v4.capacity());
+        System.out.println("capacity of the V4 is:"+v4.capacity());
 
 
  Vector<Integer> v5=new Vector<>();
@@ -124,6 +124,7 @@ public class VectorClass {
         v5.add(null);
 
         System.out.println("V5 vector elements are:" +v5);
+
 
 
 
